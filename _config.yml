@@ -1,9 +1,9 @@
 # Site settings
-title: Ethereal
+title: Daniel Truong | Software Engineer
 subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: This is <strong>Ethereal</strong>, a free site template by AJ for <a href="https://html5up.net">HTML5 UP</a>. It’s fully responsive, built on HTML5 and CSS3, and released entirely for free under the Creative Commons license. Hope you dig it :)
-baseurl: "/ethereal-jekyll-theme" # the subpath of your site, e.g. /blog
+email: ddtruong06@gmail.com
+description: Hi. I'm excited to see you here. You can learn more about me here.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
