@@ -11,6 +11,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <!-- my custom styles -->
+  <style>
+    @media screen and (max-width: 600px) {
+      #profile-pic {
+        height: 25rem;
+      }
+    }
+  </style>
 </head>
 
 
@@ -28,7 +36,6 @@
     <div class="content color0 span-3-75">
       <h1 class="major">Hello, I'm Daniel.</h1>
       <p>Hi. I'm excited to see you here. Click below to learn more about me or check out my resume!</p>
-      <!-- <a href="#" class="button">Check out my resume</a> -->
       <br>
       <ul class="actions">
         <li><a href="http://resume.danieltruong.net" class="button special color1 circle icon fa-file">Resume</a></li>
@@ -36,7 +43,7 @@
       </ul>
     </div>
 
-    <div class="image filtered span-1-75" data-position="25% 25%">
+    <div id="profile-pic" class="image filtered span-1-75" data-position="25% 25%">
       <img src="assets/images/custom/daniel-profile.JPG" alt="" />
     </div>
   </section>
@@ -64,15 +71,15 @@
     <div class="image filtered tinted" data-position="bottom center">
        <img src="assets/images/custom/daniel-canada-best.jpg"" alt="" /> 
       
-      
     </div>
     
   </section>
 
 
 		<!-- Panel -->
-  <section class="panel color1 medium" id="experience">
-    <div class="inner joined">
+  <section class="panel spotlight medium left" id="experience">
+
+    <div class="intro">
       <h2 class="major">Work Experience</h2>
       <p>My main specializations & interests include full-stack, backend, mobile, systems, and product engineering.</p>
       <ul>
@@ -87,23 +94,23 @@
         
       </ul>
     </div>
-    <div class="inner" style="text-align: center;">
-      <ul class="grid-icons connected three">
+    <div class="content span-10" style="text-align: center;">
+      <div class="grid-icons three" style="margin: auto;">
 
         
-          <li style="text-align: center; ">
-            <img src="https://img.icons8.com/color/150/000000/tesla-logo.png"/>
-          </li>
+          <div style="text-align: center; ">
+            <img src="https://img.icons8.com/color/125/000000/tesla-logo.png"/>
+          </div>
 
         
-          <li style="text-align: center; ">
-            <img src="https://img.icons8.com/color/150/000000/microsoft.png"/>
-          </li>
+          <div style="text-align: center; ">
+            <img src="https://img.icons8.com/color/125/000000/microsoft.png"/>
+          </div>
 
         
-          <li style="text-align: center; ">
-            <img src="https://img.icons8.com/color/150/000000/google-logo.png"/>
-          </li>
+          <div style="text-align: center; ">
+            <img src="https://img.icons8.com/color/125/000000/google-logo.png"/>
+          </div>
 
         
         <!-- <li style="text-align: center; "><img src="https://img.icons8.com/color/150/000000/tesla-logo.png"/></li>
@@ -114,7 +121,12 @@
         <li><span class="icon fa-cog"><span class="label">Dolor</span></span></li>
         <li><span class="icon fa-paper-plane"><span class="label">Sit</span></span></li> -->
         <!-- <li><span class="icon fa-bar-chart"><span class="label">Amet</span></span></li> -->
-      </ul>
+        </div>
+    </div>
+
+
+    <div class="image filtered tinted" data-position="bottom right">
+      <img src="assets/images/custom/acm-talk.JPG" alt="" />
     </div>
   </section>
 

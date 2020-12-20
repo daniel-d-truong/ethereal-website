@@ -2,7 +2,6 @@
 title: Daniel Truong | Software Engineer
 subtitle: by HTML5 UP
 email: ddtruong06@gmail.com
-description: Hi. I'm excited to see you here. Click below to learn more about me or check out my resume!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
@@ -25,11 +24,10 @@ pinterest_url:
 slack_url:
 twitter_url: 
 email: ddtruong06@gmail.com
+form_url: https://formspree.io/f/xeqppqrz
 
 # Build settings
 markdown: kramdown
 
 sass:
   style: compressed
-
-theme: jekyll-theme-minimal
