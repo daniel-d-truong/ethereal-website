@@ -1,0 +1,28 @@
+<!-- Panel (Spotlight) -->
+  <section class="panel color3-alt" id="projects">
+    <div class="intro color3">
+      <h2 class="major">{{ page.projects_title }}</h2>
+      <p>Here are some things I've worked on:</p>
+    </div>
+    
+    <div class="gallery">
+      <div class="modal" tabIndex="-1">
+        <div class="inner">
+          <img src="" style="max-width:40%; max-height:750px; margin: auto;" />
+          <div class="content center middle" style="text-align: center; padding: 10px;">
+            <h1 id="proj-title">HEADER</h1>
+            <p id="proj-desc">DESCRIPTON</p>
+            <a id="proj-url" href="#" class="button special color2">Check out my project!</a>
+          </div>
+        </div>
+      </div>
+      <div class="group span-3">
+        {% for proj in page.projects %}
+          <a href="{{ proj[1].image }}" class="image filtered span-1-5" data-position="middle" title="{{ proj[0] }}">
+            <img src="{{ proj[1].image }}" alt="{{ proj[1].description }}"></img>
+            <p id="link" style="display:none;">{{ proj[1].url }}</p>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>

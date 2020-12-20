@@ -316,7 +316,7 @@
 										return;
 
 								// Prevent default.
-									event.preventDefault();
+									// event.preventDefault();
 									event.stopPropagation();
 
 								// Stop link scroll.
@@ -631,9 +631,16 @@
 							$gallery = $a.parents('.gallery'),
 							$modal = $gallery.children('.modal'),
 							$modalImg = $modal.find('img'),
+							$modalTitle = $modal.find('#proj-title'),
+							$modalDesc = $modal.find('#proj-desc'),
+							$modalButton = $modal.find('#proj-url'),
+							projTitle = $a.attr('title'),
+							projUrl = $a.text(),
+							projDesc = $a.find('img').attr('alt'),
 							href = $a.attr('href');
 
 						// Not an image? Bail.
+						console.log(href);
 							if (!href.match(/\.(jpg|gif|png|mp4)$/))
 								return;
 
@@ -651,8 +658,19 @@
 						// Set src.
 							$modalImg.attr('src', href);
 
+						// Set text
+							console.log($a);
+							console.log(projTitle);
+							console.log(projDesc);
+							console.log(projUrl);
+							$modalTitle.text(projTitle);
+							$modalDesc.html(projDesc);
+							$modalButton.attr('href', projUrl);
+
+
 						// Set visible.
 							$modal.addClass('visible');
+
 
 						// Focus.
 							$modal.focus();
@@ -729,25 +747,24 @@
 							event.stopPropagation();
 
 					})
-					.prepend('<div class="modal" tabIndex="-1"><div class="inner"><img src="" /></div></div>')
-						.find('img')
-							.on('load', function(event) {
+					.find('img')
+						.on('load', function(event) {
 
-								var $modalImg = $(this),
-									$modal = $modalImg.parents('.modal');
+							var $modalImg = $(this),
+								$modal = $modalImg.parents('.modal');
 
-								setTimeout(function() {
+							setTimeout(function() {
 
-									// No longer visible? Bail.
-										if (!$modal.hasClass('visible'))
-											return;
+								// No longer visible? Bail.
+									if (!$modal.hasClass('visible'))
+										return;
 
-									// Set loaded.
-										$modal.addClass('loaded');
+								// Set loaded.
+									$modal.addClass('loaded');
 
-								}, 275);
+							}, 275);
 
-							});
+						});
 
 		});
 

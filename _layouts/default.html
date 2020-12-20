@@ -12,21 +12,23 @@
 
 		{% include header.html %}
 
-		{% include banner.html %}
+		{% include custom/banner.html %}
 
 		{% capture aboutme_title %}
 			{{ page.aboutmetitle }}
 		{% endcapture %}
 
 		{% capture aboutme_content %}
-			{{ page.aboutmecontent}}
+			{{ page.aboutmecontent }}
 		{% endcapture %}
 
-		{% include spotlight2.html title=aboutme_title content=aboutme_content img="assets/images/custom/daniel-canada-best.jpg" %}
-		{% include experiences.html %}
-		{% include spotlight.html %}
-		{% include panel.html %}
-		{% include elements.html %}
+		{% include spotlight2.html title=aboutme_title content=aboutme_content img="assets/images/custom/daniel-canada-best.jpg" id="aboutme"%}
+
+		{% include custom/experiences.html %}
+		
+		{% include custom/projects.html %}
+
+		{% include contact.html %}
 
 		{% include footer.html %}
 	</body>

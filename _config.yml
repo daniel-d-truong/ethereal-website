@@ -2,7 +2,7 @@
 title: Daniel Truong | Software Engineer
 subtitle: by HTML5 UP
 email: ddtruong06@gmail.com
-description: Hi. I'm excited to see you here. You can learn more about me here.
+description: Hi. I'm excited to see you here. Click below to learn more about me or check out my resume!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
@@ -16,14 +16,15 @@ phone: (716) 555-5555
 # Social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/daniel-d-truong
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: https://www.linkedin.com/in/daniel-d-truong
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
+email: ddtruong06@gmail.com
 
 # Build settings
 markdown: kramdown
