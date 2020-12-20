@@ -632,15 +632,17 @@
 							$modal = $gallery.children('.modal'),
 							$modalImg = $modal.find('img'),
 							$modalTitle = $modal.find('#proj-title'),
+							$modalTechStack = $modal.find('#proj-tech-stack'),
 							$modalDesc = $modal.find('#proj-desc'),
-							$modalButton = $modal.find('#proj-url'),
-							projTitle = $a.attr('title'),
-							projUrl = $a.text(),
-							projDesc = $a.find('img').attr('alt'),
+							$modalBtn = $modal.find('#proj-url'),
+
+							projTitle = $a.find('#title').text().trim(),
+							projDesc = $a.find('#desc').text().trim(),
+							projLink = $a.find('#link').text().trim(),
+							projTechStack = $a.find('#tech-stack').text().trim(),
 							href = $a.attr('href');
 
 						// Not an image? Bail.
-						console.log(href);
 							if (!href.match(/\.(jpg|gif|png|mp4)$/))
 								return;
 
@@ -658,19 +660,14 @@
 						// Set src.
 							$modalImg.attr('src', href);
 
-						// Set text
-							console.log($a);
-							console.log(projTitle);
-							console.log(projDesc);
-							console.log(projUrl);
+						// Set text 
 							$modalTitle.text(projTitle);
 							$modalDesc.html(projDesc);
-							$modalButton.attr('href', projUrl);
-
+							$modalBtn.attr('href', projLink);
+							$modalTechStack.text(projTechStack);
 
 						// Set visible.
 							$modal.addClass('visible');
-
 
 						// Focus.
 							$modal.focus();
@@ -747,24 +744,24 @@
 							event.stopPropagation();
 
 					})
-					.find('img')
-						.on('load', function(event) {
+						.find('img')
+							.on('load', function(event) {
 
-							var $modalImg = $(this),
-								$modal = $modalImg.parents('.modal');
+								var $modalImg = $(this),
+									$modal = $modalImg.parents('.modal');
 
-							setTimeout(function() {
+								setTimeout(function() {
 
-								// No longer visible? Bail.
-									if (!$modal.hasClass('visible'))
-										return;
+									// No longer visible? Bail.
+										if (!$modal.hasClass('visible'))
+											return;
 
-								// Set loaded.
-									$modal.addClass('loaded');
+									// Set loaded.
+										$modal.addClass('loaded');
 
-							}, 275);
+								}, 275);
 
-						});
+							});
 
 		});
 

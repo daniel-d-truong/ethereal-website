@@ -316,7 +316,7 @@
 										return;
 
 								// Prevent default.
-									event.preventDefault();
+									// event.preventDefault();
 									event.stopPropagation();
 
 								// Stop link scroll.
@@ -631,6 +631,15 @@
 							$gallery = $a.parents('.gallery'),
 							$modal = $gallery.children('.modal'),
 							$modalImg = $modal.find('img'),
+							$modalTitle = $modal.find('#proj-title'),
+							$modalTechStack = $modal.find('#proj-tech-stack'),
+							$modalDesc = $modal.find('#proj-desc'),
+							$modalBtn = $modal.find('#proj-url'),
+
+							projTitle = $a.find('#title').text().trim(),
+							projDesc = $a.find('#desc').text().trim(),
+							projLink = $a.find('#link').text().trim(),
+							projTechStack = $a.find('#tech-stack').text().trim(),
 							href = $a.attr('href');
 
 						// Not an image? Bail.
@@ -650,6 +659,12 @@
 
 						// Set src.
 							$modalImg.attr('src', href);
+
+						// Set text 
+							$modalTitle.text(projTitle);
+							$modalDesc.html(projDesc);
+							$modalBtn.attr('href', projLink);
+							$modalTechStack.text(projTechStack);
 
 						// Set visible.
 							$modal.addClass('visible');
@@ -729,7 +744,6 @@
 							event.stopPropagation();
 
 					})
-					.prepend('<div class="modal" tabIndex="-1"><div class="inner"><img src="" /></div></div>')
 						.find('img')
 							.on('load', function(event) {
 

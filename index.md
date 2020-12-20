@@ -21,18 +21,25 @@ projects_description: Here's a list of projects I've worked on
 projects: 
     Platter: 
         image: assets/images/logos/platter.png
-        description: Worked as CTO, managing team of 7. Creating mobile application that provides marketplace for homecooked meals. Tech stack includes <b>React Native, MongoDB, node.js, and AWS.</b>
+        description: Worked as CTO, managing team of 7. Creating mobile application that provides marketplace for homecooked meals. Performed extensive user & market research, and worked with designers to optimize user experience. 
         url: https://eatplatter.com
+        tech_stack: React Native, Expo, Node.js, Express.js, Firebase Auth, MongoDB, AWS S3
+
     Schoolhouse Ghana: 
         image: assets/images/logos/global_ties.png
-        description: Served as Software Team Lead, developing software system for students in Ghana to get constant access to school resources, despite lack of internet accessibility. Led development of <b>MERN application</b>, working in both front-end and back-end as well as managing 5 team members.
+        description: Served as Software Team Lead, managing 5 team members,, developing software system for students in Ghana to get constant access to school resources, despite lack of internet accessibility. 
         url: https://github.com/UCSD-Global-TIES
+        tech_stack: React, MongoDB, Node.js, Express.js, Raspberry PI
+
     coviddaily.info: 
         image: assets/images/logos/covid.png
-        description: Created a full-stack web application tracking COVID stats as well as news articles for any region in the world. Leverages data through worldometer. Used <b>Typescript, React, Flask, and Python</b> to create front-end + back-end.
+        description: Created a full-stack web application tracking COVID stats as well as news articles for any region in the world. Leverages data through worldometer.
         url: http://coviddaily.info/
+        tech_stack: React, Typescript, Python, Flask, Web Scraping (BeautifulSoup)
+
     Don't Back Out: 
         image: assets/images/logos/dbo.png
-        description: IOT slouch detector device & mobile application which helps users fix their bad habits of bad posture, using <b>Arduino, Android Studio, and Java</b>. Mainly worked on creating the mobile application interface and connecting the software with the hardware. 
+        description: IOT slouch detector device & mobile application which helps users fix their bad habits of bad posture. Mainly worked on creating the mobile application interface and connecting the software with the hardware. 
         url: https://www.youtube.com/watch?v=FBeKVBKQoDQ&feature=youtu.be&ab_channel=DanielTruong
+        tech_stack: Android, Android Studio, Java, Arduino, C, Bluetooth
 ---

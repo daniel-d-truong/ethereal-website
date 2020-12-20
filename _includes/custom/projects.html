@@ -11,6 +11,7 @@
           <img src="" style="max-width:40%; max-height:750px; margin: auto;" />
           <div class="content center middle" style="text-align: center; padding: 10px;">
             <h1 id="proj-title">HEADER</h1>
+            <h3 id="proj-tech-stack">TECH STACK</h3>
             <p id="proj-desc">DESCRIPTON</p>
             <a id="proj-url" href="#" class="button special color2">Check out my project!</a>
           </div>
@@ -18,9 +19,13 @@
       </div>
       <div class="group span-3">
         {% for proj in page.projects %}
-          <a href="{{ proj[1].image }}" class="image filtered span-1-5" data-position="middle" title="{{ proj[0] }}">
-            <img src="{{ proj[1].image }}" alt="{{ proj[1].description }}"></img>
+          <a href="{{ proj[1].image }}" class="image filtered span-1-5" data-position="middle">
+            <img src="{{ proj[1].image }}" alt="{{ proj[0] }}"></img>
             <p id="link" style="display:none;">{{ proj[1].url }}</p>
+            <p id="title" style="display:none;">{{ proj[0] }}</p>
+            <p id="desc" style="display:none;">{{ proj[1].description }}</p>
+            <p id="tech-stack" style="display:none;">{{ proj[1].tech_stack }}</p>
+            
           </a>
         {% endfor %}
       </div>
