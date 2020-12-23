@@ -12,10 +12,19 @@ work_icons:
     https://img.icons8.com/color/125/000000/google-logo.png: SWE (STEP) Intern (Summer 2019)
 
 experience_details: 
-    microsoft2021: Incoming SWE Intern at <b>Microsoft</b> Cloud & AI - Spring 2021
-    tesla: Incoming SWE Intern at <b>Tesla</b> - Winter 2021
-    microsoft2020: SWE Intern at <b>Microsoft</b> Cloud & AI - Summer 2020
-    google: SWE (Engineering Practicum) Intern at <b>Google</b> - Summer 2019
+    microsoft: 
+        title: Microsoft (Cloud & AI)
+        details: 
+            one: Software Engineer Intern (Spring 2021)
+            two: Software Engineer Intern (Summer 2020) 
+    tesla:
+        title: Tesla (Mobile Robot Engineering)
+        details:
+            one: Software Engineer Intern (Winter 2021)
+    google: 
+        title: Google (Chrome Admin Enterprise)
+        details: 
+            one: Software Engineer (Practicum) Intern (Summer 2019)
 
 projects_title: Projects
 projects_description: Here's a list of projects I've worked on
