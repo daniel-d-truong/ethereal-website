@@ -7,9 +7,9 @@ aboutmecontent: I am a student studying Computer Science and Entrepreneurship/In
 experience_title: Work Experience
 experience_description: My main specializations & interests include full-stack, backend, mobile, systems, and product engineering.
 work_icons: 
-    https://img.icons8.com/color/125/000000/tesla-logo.png: Incoming SWE Intern (Winter 2021)
-    https://img.icons8.com/color/125/000000/microsoft.png: SWE Intern (Summer 2020)
-    https://img.icons8.com/color/125/000000/google-logo.png: SWE (STEP) Intern (Summer 2019)
+    https://img.icons8.com/color/100/000000/tesla-logo.png: Incoming SWE Intern (Winter 2021)
+    https://img.icons8.com/color/100/000000/microsoft.png: SWE Intern (Summer 2020)
+    https://img.icons8.com/color/100/000000/google-logo.png: SWE (STEP) Intern (Summer 2019)
 
 experience_details: 
     microsoft: 
