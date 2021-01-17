@@ -12,19 +12,31 @@ work_icons:
     https://img.icons8.com/color/100/000000/google-logo.png: SWE (STEP) Intern (Summer 2019)
 
 experience_details: 
+    hatch:
+        title: Hatch
+        logo: assets/images/logos/hatch.jpg
+        details:
+            one: Incoming SWE Intern (Summer 2021)
+        desc: Will be joining the team from June 2021 - September 2021 to help small businesses by working on identity verification, automation pipelines, and their line of credit product. 
     microsoft: 
         title: Microsoft (Cloud & AI)
+        logo: assets/images/logos/microsoft.png
         details: 
-            one: Software Engineer Intern (Spring 2021)
+            one: Incoming SWE Intern (Spring 2021)
             two: Software Engineer Intern (Summer 2020) 
+        desc: Worked on Microsoft's internal incident management system from June 2020 - September 2020. Created a tagging feature using the .NET framework, Angular, Azure CosmosDB, and others. Will be joining the organization again from April - June 2021.   
     tesla:
         title: Tesla (Mobile Robot Engineering)
+        logo: assets/images/logos/tesla.png
         details:
             one: Software Engineer Intern (Winter 2021)
+        desc: Currently working on Tesla's Mobile Robot Engineering team to focus on teleoperations and live video streaming. 
     google: 
         title: Google (Chrome Admin Enterprise)
+        logo: assets/images/logos/google.png
         details: 
             one: Software Engineer (Practicum) Intern (Summer 2019)
+        desc: Worked from June 2019 - September 2019 in order to create debugging tools to aid in the launch of the new Google Chrome Admin product. 
 
 projects_title: Projects
 projects_description: Here's a list of projects I've worked on

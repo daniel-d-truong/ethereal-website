@@ -1,7 +1,7 @@
 <!-- Panel -->
   <section class="panel spotlight medium left" id="experience">
 
-    <div class="content">
+    <div class="content group">
       <h2 class="major">{{ page.experience_title }}</h2>
       <p>{{ page.experience_description }}</p>
       <ul>
@@ -17,28 +17,38 @@
         {% endfor %}
       </ul>
     </div>
-    <div class="intro" style="text-align: center;">
-      <div class="grid-icons three" style="margin: auto;">
-
-        {% for icon in page.work_icons %}
-          <div style="text-align: center; background-color: white; border-radius: 30%; margin-top: 10px;">
-            <img src="{{ icon[0] }}"/>
-          </div>
-
-        {% endfor %}
-        <!-- <li style="text-align: center; "><img src="https://img.icons8.com/color/150/000000/tesla-logo.png"/></li>
-        <li style="text-align: center; "><img src="https://img.icons8.com/color/150/000000/google-logo.png"/></li>
-        <li style="text-align: center; "><img src="https://img.icons8.com/color/150/000000/microsoft.png"/></li> -->
-        
-        <!-- <li><span class="icon fa-camera-retro"><span class="label">Ipsum</span></span></li>
-        <li><span class="icon fa-cog"><span class="label">Dolor</span></span></li>
-        <li><span class="icon fa-paper-plane"><span class="label">Sit</span></span></li> -->
-        <!-- <li><span class="icon fa-bar-chart"><span class="label">Amet</span></span></li> -->
-        </div>
-    </div>
 
 
     <div class="image filtered tinted" data-position="bottom right">
       <img src="assets/images/custom/acm-talk.JPG" alt="" />
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="gallery">
+      <div class="modal" tabIndex="-1">
+        <div class="inner">
+          <img src="" style="max-width:40%; max-height:750px; margin: auto;" />
+          <div class="content center middle" style="text-align: center; padding: 10px;">
+            <h1 id="proj-title">HEADER</h1>
+            <h3 id="proj-tech-stack">TECH STACK</h3>
+            <p id="proj-desc">DESCRIPTON</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="group span-3">
+        {% for item in page.experience_details %}
+          <a href="{{item[1].logo}}" class="image filtered span-1-5" data-position="top">
+            <img src="{{item[1].logo}}" alt="" />
+            <p id="title" style="display:none;">{{ item[1].title }}</p>
+            <p id="desc" style="display:none;">{{ item[1].desc }}</p>
+          </a>
+        {% endfor %}
+        <!-- <a href="assets/images/gallery/fulls/05.jpg" class="image filtered span-1-5" data-position="top"><img src="assets/images/gallery/thumbs/05.jpg" alt="" /></a>
+        <a href="assets/images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="assets/images/gallery/thumbs/06.jpg" alt="" /></a>
+        <a href="assets/images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="assets/images/gallery/thumbs/07.jpg" alt="" /></a>
+        <a href="assets/images/gallery/fulls/08.jpg" class="image filtered span-1-5" data-position="top"><img src="assets/images/gallery/thumbs/08.jpg" alt="" /></a> -->
+      </div>
     </div>
   </section>
