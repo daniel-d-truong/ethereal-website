@@ -19,7 +19,7 @@ experience_details:
             one: Software Engineer (Oct 2022 - Present)
         desc: Working in MCF (Multi-Channel Fulfillment) organizing, helping merchants fulfill orders using Amazon Logistics via Shopify and internal tooling. Also, built Bad Debt detection tools to reduce costs from bad actor merchants.
     hatch:
-        title: Hatch
+        title: Nearside (previously Hatch)
         logo: assets/images/logos/hatch.jpg
         details:
             one: SWE Intern (Summer 2021)
