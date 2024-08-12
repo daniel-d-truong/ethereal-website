@@ -3,28 +3,34 @@ layout: default
 title: Daniel Truong | Software Engineer
 description: Hi. I'm excited to see you here. Click below to learn more about me or check out my resume!
 aboutmetitle: Developer and Entrepreneur
-aboutmecontent: I am a student studying Computer Science and Entrepreneurship/Innovation at <b>University of California, San Diego</b>, graduating in June 2022. I've always been in love with technology and interested in coding & finding solutions improve the world. 
+aboutmecontent: I am a full-time software engineer that has been in the field since 2019. I graduated from University of California, San Diego with a degree in Computer Science in 2022. I love coming up with ideas and building solutions from zero to one that help solve real problems. I've also given talks and workshops helping people learn more about software engineering. 
 experience_title: Work Experience
-experience_description: My main specializations & interests include full-stack, backend, mobile, systems, and product engineering.
+experience_description: My main specializations & interests include API and database development, product engineering, cloud computing and infrastructure. 
 work_icons: 
-    https://img.icons8.com/color/100/000000/tesla-logo.png: Incoming SWE Intern (Winter 2021)
-    https://img.icons8.com/color/100/000000/microsoft.png: SWE Intern (Summer 2020)
-    https://img.icons8.com/color/100/000000/google-logo.png: SWE (STEP) Intern (Summer 2019)
+    https://img.icons8.com/color/100/000000/tesla-logo.png: SWE Intern (Winter 2021)
+    https://img.icons8.com/color/100/000000/microsoft.png: SWE Intern (Summer 2020 & Spring 2021)
+    https://img.icons8.com/color/100/000000/google-logo.png: SWE Intern (Summer 2019)
 
 experience_details: 
+    amazon:
+        title: Amazon
+        logo: assets/images/logos/amazon_logo.png
+        details:
+            one: Software Engineer (Oct 2022 - Present)
+        desc: Working in MCF (Multi-Channel Fulfillment) organizing, helping merchants fulfill orders using Amazon Logistics via Shopify and internal tooling. Also, built Bad Debt detection tools to reduce costs from bad actor merchants.
     hatch:
         title: Hatch
         logo: assets/images/logos/hatch.jpg
         details:
-            one: Incoming SWE Intern (Summer 2021)
-        desc: Will be joining the team from June 2021 - September 2021 to help small businesses by working on identity verification, automation pipelines, and their line of credit product. 
+            one: SWE Intern (Summer 2021)
+        desc: Working on improving small businesses banking by working on identity verification, automation pipelines, new incorporation product, and new checking service. 
     microsoft: 
         title: Microsoft (Cloud & AI)
         logo: assets/images/logos/microsoft.png
         details: 
-            one: Incoming SWE Intern (Spring 2021)
+            one: SWE Intern (Spring 2021)
             two: Software Engineer Intern (Summer 2020) 
-        desc: Worked on Microsoft's internal incident management system from June 2020 - September 2020. Created a tagging feature using the .NET framework, Angular, Azure CosmosDB, and others. Will be joining the organization again from April - June 2021.   
+        desc: Worked on Microsoft's internal incident management system from June 2020 - September 2020. Created a tagging feature as well as incident automation features for the internal management tool (IcM) using the .NET framework, Angular, Azure CosmosDB, and others. Will be joining the organization again from April - June 2021. 
     tesla:
         title: Tesla (Mobile Robot Engineering)
         logo: assets/images/logos/tesla.png
