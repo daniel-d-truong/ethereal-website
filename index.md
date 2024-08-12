@@ -28,8 +28,7 @@ experience_details:
         title: Microsoft (Cloud & AI)
         logo: assets/images/logos/microsoft.png
         details: 
-            one: SWE Intern (Spring 2021)
-            two: Software Engineer Intern (Summer 2020) 
+            one: SWE Intern (Summer 2020 & Spring 2021)
         desc: Worked on Microsoft's internal incident management system from June 2020 - September 2020. Created a tagging feature as well as incident automation features for the internal management tool (IcM) using the .NET framework, Angular, Azure CosmosDB, and others. Will be joining the organization again from April - June 2021. 
     tesla:
         title: Tesla (Mobile Robot Engineering)
