@@ -22,7 +22,7 @@ experience_details:
         title: Nearside (previously Hatch)
         logo: assets/images/logos/hatch.jpg
         details:
-            one: SWE Intern (Summer 2021)
+            one: Software Engineer (Jun 2021 - Oct 2022)
         desc: Working on improving small businesses banking by working on identity verification, automation pipelines, new incorporation product, and new checking service. 
     microsoft: 
         title: Microsoft (Cloud & AI)
